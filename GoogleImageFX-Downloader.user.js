@@ -35,7 +35,7 @@ function generateUniqueID() {
 
     // Function to click the button and retrieve the copied prompt from the clipboard
     function clickButtonAndGetPrompt() {
-        let targetDiv = document.querySelector("div.sc-131e0b15-0.jauKcY.sc-2519865f-0.cWIaav");
+        let targetDiv = document.querySelector("div.sc-2b6ef9e5-0.fyDfHs.sc-2519865f-0.cWIaav");
         if (targetDiv) {
             let button = targetDiv.querySelector("button");
             if (button) {
